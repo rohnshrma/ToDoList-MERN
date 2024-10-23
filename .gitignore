@@ -36,27 +36,9 @@ Thumbs.db
 # Mac specific files
 *.DS_Store
 
-# React specific files
-*.js
-*.jsx
-*.ts
-*.tsx
-
-# Next.js build output
-.next/
-out/
-
 # Docker files
 docker-compose.yml
 Dockerfile
 
-# Git directories
-.git/
-
-# Yarn integrity file
-.yarn-integrity
-
-# Backup files
-*~
-*.bak
-*.tmp
+# Ignore everything else, but include backend
+# !backend/ # Uncomment this line to explicitly include the backend folder
